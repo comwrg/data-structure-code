@@ -118,7 +118,7 @@ int main(void) {
             printf("try push %d. ", i);
             bool b = push(&queue, i);
             if (b)
-                printf("successed.");
+                printf("succeed.");
             else
                 printf("failed.");
             printf("\n");
@@ -132,7 +132,7 @@ int main(void) {
             int r;
             bool b = pop(&queue, &r);
             if (b)
-                printf("successed. value is %d", r);
+                printf("succeed. value is %d", r);
             else
                 printf("failed.");
             printf("\n");
